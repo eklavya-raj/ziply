@@ -17,7 +17,7 @@
     "access": "public"
   },
   "bin": {
-    "ziply": "./dist/index.js"
+    "ziply": "dist/index.js"
   },
   "exports": {
     ".": {
@@ -25,9 +25,13 @@
       "import": "./dist/index.js"
     }
   },
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format esm --dts --sourcemap",
+    "postbuild": "chmod +x dist/index.js",
     "check": "tsc --noEmit",
     "test": "vitest run --passWithNoTests",
     "clean": "rm -rf dist"
