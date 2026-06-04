@@ -3,6 +3,19 @@
   "version": "0.1.0",
   "description": "Command line utilities for Ziply.",
   "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eklavya-raj/ziply.git",
+    "directory": "packages/ziply-cli"
+  },
+  "homepage": "https://github.com/eklavya-raj/ziply#readme",
+  "bugs": {
+    "url": "https://github.com/eklavya-raj/ziply/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "ziply": "./dist/index.js"
   },
@@ -12,7 +25,7 @@
       "import": "./dist/index.js"
     }
   },
-  "files": ["dist"],
+  "files": ["dist", "README.md"],
   "scripts": {
     "build": "tsup src/index.ts --format esm --dts --sourcemap",
     "check": "tsc --noEmit",

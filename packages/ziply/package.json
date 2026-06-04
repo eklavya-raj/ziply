@@ -4,6 +4,19 @@
   "description": "A high-performance JavaScript ZIP library optimized for appending entries without recompressing archives.",
   "type": "module",
   "sideEffects": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eklavya-raj/ziply.git",
+    "directory": "packages/ziply"
+  },
+  "homepage": "https://github.com/eklavya-raj/ziply#readme",
+  "bugs": {
+    "url": "https://github.com/eklavya-raj/ziply/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -14,7 +27,7 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": ["dist", "README.md"],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --sourcemap",
     "check": "tsc --noEmit",
