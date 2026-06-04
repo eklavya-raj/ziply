@@ -1,5 +1,5 @@
 {
-  "name": "@ziply/cli",
+  "name": "ziply-cli",
   "version": "0.1.0",
   "description": "Command line utilities for Ziply.",
   "type": "module",

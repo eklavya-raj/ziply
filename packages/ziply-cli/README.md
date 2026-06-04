@@ -1,4 +1,4 @@
-# @ziply/cli
+# ziply-cli
 
 Small CLI for Ziply.
 
@@ -11,7 +11,7 @@ ziply list next.zip
 Install:
 
 ```sh
-npm install -g @ziply/cli
+npm install -g ziply-cli
 ```
 
 Full docs and roadmap: https://github.com/eklavya-raj/ziply

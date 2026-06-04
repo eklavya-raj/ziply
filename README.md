@@ -24,7 +24,7 @@ No decompressing existing files. No rebuilding the whole archive in JS memory ju
 This repo is a `pnpm` monorepo:
 
 - `ziply`: browser-safe core library.
-- `@ziply/cli`: small Node CLI for quick local work.
+- `ziply-cli`: small Node CLI for quick local work.
 
 ## Quick Start
 
@@ -51,7 +51,7 @@ const updated = await augmentZipFile(file, "upload.yml", "true");
 CLI:
 
 ```sh
-pnpm --filter @ziply/cli ziply add archive.zip upload.yml ./upload.yml -o next.zip
+pnpm --filter ziply-cli ziply add archive.zip upload.yml ./upload.yml -o next.zip
 ```
 
 ## What Works Today

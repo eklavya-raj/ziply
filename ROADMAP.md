@@ -166,7 +166,7 @@ Potential future packages:
 
 - `ziply`: browser-safe core.
 - `@ziply/node`: Node stream and filesystem helpers.
-- `@ziply/cli`: command line interface.
+- `ziply-cli`: command line interface.
 - `@ziply/codec-deflate`: Deflate adapter.
 - `@ziply/codec-wasm`: high-performance WASM codec adapter.
 - `@ziply/bench`: benchmark suite.
